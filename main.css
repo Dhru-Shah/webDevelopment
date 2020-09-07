@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(244, 246, 248);
+    font-family: sans-serif;
+}
+
+.container{
+  padding: 20px 150px 20px 150px;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 8px 8px; 
+  background-repeat: no-repeat;
+  padding: 8px 40px;
+}
+
+.movieHeading {
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nominationsSection  {
+  padding: 0px 23px 2px 30px;  
+  border: 2px solid rgb(238, 237, 237);
+  border-radius: 8px;
+  height: 175px;
+  background-color: white;
+  padding-bottom: 5px;  
+  font-size: 12px;
+  float: right;
+  width: 45%;
+  margin-top: 18px;
+}
+
+.pageHeading {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.resultsSection > h3 {
+  font-size: 14px;
+}
+
+.resultsSection {
+  padding: 0px 23px 2px 30px;  
+  border: 2px solid rgb(238, 237, 237);
+  border-radius: 8px;
+  height: 300px;
+  background-color: white;
+  padding-bottom: 5px;  
+  font-size: 12px;
+  float: left;
+  width: 42%;
+  margin-top: 18px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.searchMovie {
+    padding: 15px 23px 2px 30px;  
+    border: 2px solid rgb(238, 237, 237);
+    border-radius: 8px;
+    height: 70px;
+    background-color: white;
+    padding-bottom: 5px;  
+}
+
+.searchBtn{
+
+  visibility: hidden;
+}
