@@ -1,4 +1,4 @@
-#The Shoppies
+# The Shoppies
 
 Hello! Thank you for checking out my version of The Shoppies.
 
