@@ -1,12 +1,15 @@
+/*Styling for the light grey background as the one shown in example*/
 body {
     background-color: rgb(244, 246, 248);
     font-family: sans-serif;
 }
 
+/*Styling for the main container in which all elements will reside. Narrowed down to create  visual appeal*/
 .container{
   padding: 20px 150px 20px 150px;
 }
 
+/*Styling for search bar with the icon instead of the search button*/
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
@@ -20,6 +23,7 @@ input[type=text] {
   padding: 8px 40px;
 }
 
+/*Styling for the movie heading and it's placement on top of the search bar*/
 .movieHeading {
   margin: 0px;
   padding-top: 5px;
@@ -27,6 +31,7 @@ input[type=text] {
   font-weight: bold;
 }
 
+/*Styling for the nominations section with the same colour scheme as the example provided to match the light grey background*/
 .nominationsSection  {
   padding: 0px 23px 2px 30px;  
   border: 2px solid rgb(238, 237, 237);
@@ -40,16 +45,14 @@ input[type=text] {
   margin-top: 18px;
 }
 
+/*Styling for Styling for the main page heading The Shoppies*/
 .pageHeading {
     color: black;
     font-family: sans-serif;
     font-weight: bold;
 }
 
-.resultsSection > h3 {
-  font-size: 14px;
-}
-
+/*Styling for the results section in which the search results are displayed matching the given light grey background*/
 .resultsSection {
   padding: 0px 23px 2px 30px;  
   border: 2px solid rgb(238, 237, 237);
@@ -64,12 +67,7 @@ input[type=text] {
 
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
+/*Styling for the search section with border and rounded design for elegance*/
 .searchMovie {
     padding: 15px 23px 2px 30px;  
     border: 2px solid rgb(238, 237, 237);
@@ -79,7 +77,7 @@ input[type=text] {
     padding-bottom: 5px;  
 }
 
+/*Styling for the search button which I chose to hide to give it a sleek design*/
 .searchBtn{
-
   visibility: hidden;
 }
